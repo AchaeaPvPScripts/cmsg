@@ -1,0 +1,1 @@
+raiseEvent("attack from", matches[2], "gut", true)

@@ -1,0 +1,46 @@
+[
+       {
+              "name": "Rend",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Lunging forward with long, flashing claws extended, (\\S+) tears into you ruthlessly\\.",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\S+) lunges forward with long, flashing claws extended, tearing down to the bones",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Gut",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\S+) rips into you with \\S+ massive, deadly claws\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       }
+]
