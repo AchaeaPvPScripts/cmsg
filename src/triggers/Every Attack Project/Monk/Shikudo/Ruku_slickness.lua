@@ -1,2 +1,1 @@
-local s = targetting(matches[2])
-s:afflict("slickness")
+cmsg("Shikudo", "Ruku torso", matches[2], "slickness")

@@ -1,2 +1,1 @@
-local s = targetting(matches[2])
-s:afflict("asthma")
+cmsg("Shikudo", "Livestrike", matches[2], "asthma")
