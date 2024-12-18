@@ -28,7 +28,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.id }}
+          issue-number: ${{ github.event.pull_request.number }}
           body: |-
             ## Build preview
             Download the link [here](${{ steps.upload.outputs.artifact_url }}) 
